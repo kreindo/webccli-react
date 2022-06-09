@@ -1,8 +1,9 @@
-import React from 'react';const IntCard = () => {
+import React from 'react';
+const IntCard = () => {
   return (
     <div
       style={{
-        backgroundColor: 'red',
+        backgroundColor: '#ffffff',
         margin: '65px 30px',
         width: '379px',
         height: '386px',

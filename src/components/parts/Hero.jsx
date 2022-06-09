@@ -13,6 +13,7 @@ const Hero = () => {
       <div style={{ display: 'flex' }}>
         <p
           style={{
+            color: '#5B5B5B',
             whiteSpace: 'nowrap',
             marginTop: '36px',
             lineHeight: '32.4px',
