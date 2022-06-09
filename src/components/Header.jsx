@@ -19,8 +19,8 @@ const header = () => {
         <Button name="Pricing" />
         <ButtonSign
           name="Sign Up"
-          style={{ margin: '48px' }}
-          class="btn-signup"
+          style={{ margin: '48px', whiteSpace: 'nowrap' }}
+          class="mbtn-signup"
         />
       </div>
     </div>

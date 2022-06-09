@@ -1,5 +1,4 @@
-import React from 'react';
-import ButtonSign from './ButtonSign';
+import React from 'react';import ButtonSign from './ButtonSign';
 
 const Hero = () => {
   return (
@@ -11,8 +10,14 @@ const Hero = () => {
         <br />
         you need
       </div>
-      <div>
-        <p style={{ marginTop: '36px', lineHeight: '32.4px' }}>
+      <div style={{ display: 'flex' }}>
+        <p
+          style={{
+            whiteSpace: 'nowrap',
+            marginTop: '36px',
+            lineHeight: '32.4px',
+          }}
+        >
           Lorem ipsum is placeholder text commonly used in the graphic,
           <br />
           print, and publishing industries for previewing
@@ -24,7 +29,7 @@ const Hero = () => {
         <ButtonSign
           style={{ marginRight: '32px' }}
           name="Get Started"
-          class="btn-hero"
+          class="mbtn-hero"
         />
         <ButtonSign
           style={{
@@ -33,7 +38,7 @@ const Hero = () => {
             color: '#2B2B2B',
           }}
           name="Learn More"
-          class="btn-hero"
+          class="mbtn-hero "
         />
       </div>
     </div>
